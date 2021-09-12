@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Domine&family=Lobster+Two&display=swap');
+
+* {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#quote-box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    border: 1px solid #7a7b7e;
+    background: #e2e4ec;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #d62020;
+    background-color: rgb(163, 178, 228);
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+#text {
+    font-size: 20px;
+    height: auto;
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    margin: 5px 30px;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    background: rgb(143, 171, 202);
+}
+
+#infopad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+hr {
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #364ba788;
+}
+
+#author {
+    color: rgb(100, 11, 96);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#new-quote {
+    color: rgb(40, 112, 12);
+}
+
+#old-quote {
+    color: rgb(61, 7, 131);
+}
